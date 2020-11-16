@@ -9,7 +9,7 @@
 
 # Product display
 
-![Product display](https://github.com/azimitina/catalog-page/blob/main/src/assets/product-display.jpg)
+![Product display](https://github.com/azimitina/catalog-page/raw/main/src/assets/product-display.jpg)
 
 # Filters
 
