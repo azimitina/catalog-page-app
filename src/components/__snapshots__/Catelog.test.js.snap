@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Catalog should render Catalog 1`] = `
+<Grid
+  columns={4}
+  stackable={true}
+>
+  <GridColumn
+    key="123456"
+  >
+    <Cards
+      final_price={300}
+      image={null}
+      marketingMessaging={null}
+      meta="Indy Legging"
+      name="Nike"
+      price={300}
+    />
+  </GridColumn>
+</Grid>
+`;
+
+exports[`Catalog should render Catalog with multiple cards 1`] = `
+<Grid
+  columns={4}
+  stackable={true}
+>
+  <GridColumn
+    key="123456"
+  >
+    <Cards
+      final_price={300}
+      image={null}
+      marketingMessaging={null}
+      meta="Indy Legging"
+      name="Nike"
+      price={300}
+    />
+  </GridColumn>
+  <GridColumn
+    key="34567"
+  >
+    <Cards
+      final_price={300}
+      image="nike-small.jpg"
+      marketingMessaging="Just do it"
+      meta="Indy Legging"
+      name="Nike"
+      price={300}
+    />
+  </GridColumn>
+</Grid>
+`;
