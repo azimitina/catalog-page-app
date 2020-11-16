@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cards should render Card 1`] = `
+<Card
+  description={
+    <div>
+      <span
+        className=""
+      >
+        $
+        $180
+      </span>
+      <h6
+        className="marketing-msg"
+      />
+    </div>
+  }
+  header="Peppy Co"
+  image="http://example.com/fancy.png"
+  meta="LED Light"
+/>
+`;
+
+exports[`Cards should render Card with marketing message 1`] = `
+<Card
+  description={
+    <div>
+      <span
+        className=""
+      >
+        $
+        $180
+      </span>
+      <h6
+        className="marketing-msg"
+      >
+        Gift without the risk
+      </h6>
+    </div>
+  }
+  header="Peppy Co"
+  image="http://example.com/fancy.png"
+  meta="LED Light"
+/>
+`;

@@ -1,0 +1,24 @@
+.ui.card {
+  text-align: left;
+
+  & .content {
+    height: 120px;
+
+    & .meta,
+    & .header {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    & .marketing-msg {
+      color: #008000;
+      margin: 10px 0 0 0;
+    }
+
+    & .price-line-through {
+      text-decoration: line-through;
+      color: #a9a9a9;
+    }
+  }
+}
